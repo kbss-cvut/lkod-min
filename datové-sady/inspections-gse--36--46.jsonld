@@ -1,6 +1,6 @@
 {
   "@context": "https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-otevřených-dat/2024-05-28/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
-  "iri": "_:ds",
+  "iri": "https://github.com/kbss-cvut/lkod-min/raw/refs/heads/main/datov%C3%A9-sady/inspections-gse--36--46.jsonld",
   "typ": "Datová sada",
   "název": {
     "cs": "Záznamy o kontrolách pozemního podpůrného vybavení",
