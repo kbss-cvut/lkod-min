@@ -1,0 +1,153 @@
+{
+  "@context": "https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-otevřených-dat/2024-05-28/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance-kpis-model.jsonld",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Model KPIs pro výkon bezpečnosti",
+    "en": "Safety performance KPIS model"
+  },
+  "popis": {
+    "cs": "Ontologie Safety performance KPIS pochází z modelu vyvořeného pro lepší kontrolu bezpečnosti v leteckém provozu v projektu LKPR. Pro ontologii byly vytvořeny mapování na ontologii UFO (https://github.com/kbss-cvut/lkpr-model/blob/main/safety-performance-kpis-ufo-mapping.ttl) a STAMP (https://github.com/kbss-cvut/lkpr-model/blob/main/safety-performance-kpis-stamp-mapping.ttl).",
+    "en": "The Safety performance KPIS ontology comes from a model created for better safety control in aviation operations in the LKPR project. Mappings to the UFO (https://github.com/kbss-cvut/lkpr-model/blob/main/safety-performance-kpis-ufo-mapping.ttl) and STAMP (https://github.com/kbss-cvut/lkpr-model/blob/main/safety-performance-kpis-stamp-mapping.ttl) ontology were created for the ontology."
+  },
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "časové_pokrytí": {
+    "typ": "Časový interval",
+    "začátek": "2026-05-26"
+  },
+  "klíčové_slovo": {
+    "cs": [
+      "letectví",
+      "inspekce",
+      "kontrola",
+      "výkonnost bezpečnosti",
+      "ontologie"
+    ],
+    "en": [
+      "aviation",
+      "inspection",
+      "control",
+      "safety performance",
+      "ontology"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/CONT",
+  "dokumentace": "https://onto.fel.cvut.cz/ontologies/safety-performance-kpis",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+  ],
+  "specifikace": [
+    "https://onto.fel.cvut.cz/ontologies/safety-performance-kpis"
+  ],
+  "poskytovatel": "https://ror.org/03kqpb082",
+  "distribuce": [
+    {
+      "typ": "Distribuce",
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance-kpis-model.jsonld/distribuce/0",
+      "název": {
+        "cs": "inspections-gse--36--46",
+        "en": "inspections-gse--36--46"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor": {
+          "cs": "Bogdan Kostov, Miroslav Blaško"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://sample-place/where-files-are-stored/file.csv",
+      "přístupové_url": "https://sample-place/where-files-are-stored/file.csv",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance-kpis-model.jsonld/distribuce/1",
+      "název": {
+        "cs": "Safety pereformance KPIs model JSON-LD"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor": {
+          "cs": "Michal Med, Bogdan Kostov"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://onto.fel.cvut.cz/ontologies/safety-performance-kpis/1.0.1.jsonld",
+      "přístupové_url": "https://onto.fel.cvut.cz/ontologies/safety-performance-kpis/1.0.1.jsonld",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance-kpis-model.jsonld/distribuce/2",
+      "název": {
+        "cs": "Safety performance KPIs model RDF/XML"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor": {
+          "cs": "Michal Med, Bogdan Kostov"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://onto.fel.cvut.cz/ontologies/safety-performance-kpis/1.0.1.rdf",
+      "přístupové_url": "https://onto.fel.cvut.cz/ontologies/safety-performance-kpis/1.0.1.rdf",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/rdf+xml",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance-kpis-model.jsonld/distribuce/3",
+      "název": {
+        "cs": "Safety performance KPIs model N-Triples"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor": {
+          "cs": "Michal Med, Bogdan Kostov"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://onto.fel.cvut.cz/ontologies/safety-performance-kpis/1.0.1.nt",
+      "přístupové_url": "https://onto.fel.cvut.cz/ontologies/safety-performance-kpis/1.0.1.nt",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/n-triples",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance-kpis-model.jsonld/distribuce/4",
+      "název": {
+        "cs": "Safety performance KPIs model Turtle"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor": {
+          "cs": "Michal Med, Bogdan Kostov"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://onto.fel.cvut.cz/ontologies/safety-performance-kpis/1.0.1.ttl",
+      "přístupové_url": "https://onto.fel.cvut.cz/ontologies/safety-performance-kpis/1.0.1.ttl",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/turtle",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+    }
+  ]
+}
