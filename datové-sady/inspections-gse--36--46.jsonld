@@ -80,7 +80,7 @@
         "název": {
           "cs": "SPARQL endpoint"
         },
-        "poskytuje_datovou_sadu": "_:ds"
+        "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/inspections-gse--36--46.jsonld"
       }
     }
   ]
