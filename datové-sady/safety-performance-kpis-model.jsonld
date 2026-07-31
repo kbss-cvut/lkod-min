@@ -45,28 +45,6 @@
   "distribuce": [
     {
       "typ": "Distribuce",
-      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance-kpis-model.jsonld/distribuce/0",
-      "název": {
-        "cs": "inspections-gse--36--46",
-        "en": "inspections-gse--36--46"
-      },
-      "podmínky_užití": {
-        "typ": "Specifikace podmínek užití",
-        "autorské_dílo": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "autor": {
-          "cs": "Bogdan Kostov, Miroslav Blaško"
-        },
-        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
-        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
-        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
-      },
-      "soubor_ke_stažení": "https://sample-place/where-files-are-stored/file.csv",
-      "přístupové_url": "https://sample-place/where-files-are-stored/file.csv",
-      "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
-      "formát": "http://publications.europa.eu/resource/authority/file-type/CSV"
-    },
-    {
-      "typ": "Distribuce",
       "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance-kpis-model.jsonld/distribuce/1",
       "název": {
         "cs": "Safety pereformance KPIs model JSON-LD"
