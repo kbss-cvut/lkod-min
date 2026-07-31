@@ -1,0 +1,110 @@
+{
+  "@context": "https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-otevřených-dat/2024-05-28/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/STPA-GHD.jsonld",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "STPA GHD",
+    "en": "STPA GHD"
+  },
+  "popis": {
+    "cs": "Bezpečnostní analýza inspekcí pozemního odbavení provedená metodou STPA (System-Theoretic Process Analysis). Datová sada obsahuje ztráty, kterým má být zabráněno, systémové hazardy a jejich zpřesnění, systémová bezpečnostní omezení, řídicí strukturu s jejími komponentami a vazbami, nebezpečné řídicí akce spolu s kontexty, ve kterých jsou nebezpečné, odpovídající omezení řídicích prvků a scénáře ztráty, jimiž může k nebezpečné řídicí akci dojít. Analýza vznikla v projektu Systémový přístup k měření výkonnosti v bezpečnosti leteckých organizací (CL01000136, program DOPRAVA 2030, TA ČR) ve spolupráci s odborníky na bezpečnost Letiště Praha, a.s. a je návrhem vzniklým v projektu, nikoli popisem bezpečnostní analýzy zavedené v systému řízení bezpečnosti letiště. Z této analýzy jsou odvozeny předstihové bezpečnostní indikátory publikované v samostatných datových sadách.",
+    "en": "A safety analysis of ground handling inspections carried out with the STPA (System-Theoretic Process Analysis) method. The dataset holds the losses to be prevented, the system-level hazards and their refinements, the system-level safety constraints, the control structure with its components and connections, the unsafe control actions together with the contexts in which they are unsafe, the corresponding controller constraints, and the loss scenarios by which an unsafe control action can come about. The analysis was produced in the project Total system approach to safety performance measurement in aviation organizations (CL01000136, DOPRAVA 2030 programme, Technology Agency of the Czech Republic) in cooperation with the safety experts of Letiště Praha, a.s. (Prague Airport) and is a proposal produced by the project, not a record of a safety analysis adopted in the safety management system of the airport. The leading safety indicators published as separate datasets are derived from this analysis."
+  },
+  "poskytovatel": "https://ror.org/03kqpb082",
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [],
+  "klíčové_slovo": {
+    "cs": [
+      "STPA",
+      "analýza rizik",
+      "bezpečnostní indikátory",
+      "bezpečnostní výkonnost",
+      "letectví",
+      "letiště",
+      "pozemní odbavení",
+      "prostředky pozemní obsluhy",
+      "scénáře ztráty",
+      "řízení bezpečnosti"
+    ],
+    "en": [
+      "STPA",
+      "airport",
+      "aviation",
+      "ground handling",
+      "ground support equipment",
+      "hazard analysis",
+      "loss scenarios",
+      "safety indicators",
+      "safety management",
+      "safety performance"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/NOT_PLANNED",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+  ],
+  "koncept_euroVoc": [],
+  "časové_pokrytí": {
+    "typ": "Časový interval",
+    "začátek": "2026-06-30"
+  },
+  "distribuce": [
+    {
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/STPA-GHD.jsonld/distribuce/0",
+      "typ": "Distribuce",
+      "název": {
+        "cs": "STPA-GHD",
+        "en": "STPA-GHD"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "autor": {
+          "cs": "Bogdan Kostov, Miroslav Blaško, Slobodan Stojić"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://raw.githubusercontent.com/kbss-cvut/aviation-safety-performance-kb/refs/heads/main/lkpr-distribution/db-server/init-data-profile/00-public--catalog/safety-performance/STPA-GHD.trig",
+      "přístupové_url": "https://raw.githubusercontent.com/kbss-cvut/aviation-safety-performance-kb/refs/heads/main/lkpr-distribution/db-server/init-data-profile/00-public--catalog/safety-performance/STPA-GHD.trig",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/trig",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TRIG"
+    },
+    {
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/STPA-GHD.jsonld/distribuce/1",
+      "typ": "Distribuce",
+      "název": {
+        "cs": "SPARQL endpoint",
+        "en": "SPARQL endpoint"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "autor": {
+          "cs": "Bogdan Kostov, Miroslav Blaško, Slobodan Stojić"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "přístupové_url": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+      "přístupová_služba": {
+        "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/STPA-GHD.jsonld/služba/sparql",
+        "typ": "Datová služba",
+        "název": {
+          "cs": "SPARQL endpoint",
+          "en": "SPARQL endpoint"
+        },
+        "specifikace": [
+          "https://www.w3.org/TR/sparql11-protocol/"
+        ],
+        "přístupový_bod": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+        "popis_přístupového_bodu": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+        "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/STPA-GHD.jsonld"
+      }
+    }
+  ]
+}

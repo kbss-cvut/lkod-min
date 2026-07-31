@@ -1,0 +1,110 @@
+{
+  "@context": "https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-otevřených-dat/2024-05-28/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/lagging-kpis-0.1-thresholds.jsonld",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Lagging Kpis 0.1 Thresholds",
+    "en": "Lagging Kpis 0.1 Thresholds"
+  },
+  "popis": {
+    "cs": "UPOZORNĚNÍ: hodnoty v této datové sadě jsou smyšlené. Datová sada obsahuje mezní hodnoty (měsíční a relativní zelenou a červenou mez) zpožděných (lagging) indikátorů definovaných v datové sadě lagging-kpis-0.1. Čísla byla pro veřejnou distribuci vymyšlena pouze proto, aby měly ukázkové dashboardy co zobrazit. Nejde o mezní hodnoty používané v provozu letiště ani o návrh mezních hodnot; nejsou odvozena z žádné bezpečnostní analýzy, nepopisují výkonnost v bezpečnosti žádného letiště a nesmějí být použita k jejímu hodnocení.",
+    "en": "WARNING: the values in this dataset are made up. The dataset holds the thresholds (the monthly and the relative greenline and redline) of the lagging indicators defined in the lagging-kpis-0.1 dataset. The numbers were invented for the public distribution for the sole purpose of giving the demonstration dashboards something to render. They are neither thresholds used in airport operations nor a proposal of thresholds; they are not derived from any safety analysis, they do not describe the safety performance of any airport, and they must not be used to assess it."
+  },
+  "poskytovatel": "https://ror.org/03kqpb082",
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [],
+  "klíčové_slovo": {
+    "cs": [
+      "STPA",
+      "bezpečnostní indikátory",
+      "bezpečnostní výkonnost",
+      "letectví",
+      "letiště",
+      "mezní hodnoty",
+      "pozemní odbavení",
+      "prostředky pozemní obsluhy",
+      "zpožděné indikátory",
+      "řízení bezpečnosti"
+    ],
+    "en": [
+      "STPA",
+      "airport",
+      "aviation",
+      "ground handling",
+      "ground support equipment",
+      "lagging indicators",
+      "safety indicators",
+      "safety management",
+      "safety performance",
+      "thresholds"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/NOT_PLANNED",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+  ],
+  "koncept_euroVoc": [],
+  "časové_pokrytí": {
+    "typ": "Časový interval",
+    "začátek": "2026-06-30"
+  },
+  "distribuce": [
+    {
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/lagging-kpis-0.1-thresholds.jsonld/distribuce/0",
+      "typ": "Distribuce",
+      "název": {
+        "cs": "lagging-kpis-0.1-thresholds",
+        "en": "lagging-kpis-0.1-thresholds"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "autor": {
+          "cs": "Bogdan Kostov"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://raw.githubusercontent.com/kbss-cvut/aviation-safety-performance-kb/refs/heads/main/lkpr-distribution/db-server/init-data-profile/00-public--catalog/safety-performance/lagging-kpis/lagging-kpis-0.1-thresholds.ttl",
+      "přístupové_url": "https://raw.githubusercontent.com/kbss-cvut/aviation-safety-performance-kb/refs/heads/main/lkpr-distribution/db-server/init-data-profile/00-public--catalog/safety-performance/lagging-kpis/lagging-kpis-0.1-thresholds.ttl",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/turtle",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+    },
+    {
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/lagging-kpis-0.1-thresholds.jsonld/distribuce/1",
+      "typ": "Distribuce",
+      "název": {
+        "cs": "SPARQL endpoint",
+        "en": "SPARQL endpoint"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "autor": {
+          "cs": "Bogdan Kostov"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "přístupové_url": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+      "přístupová_služba": {
+        "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/lagging-kpis-0.1-thresholds.jsonld/služba/sparql",
+        "typ": "Datová služba",
+        "název": {
+          "cs": "SPARQL endpoint",
+          "en": "SPARQL endpoint"
+        },
+        "specifikace": [
+          "https://www.w3.org/TR/sparql11-protocol/"
+        ],
+        "přístupový_bod": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+        "popis_přístupového_bodu": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+        "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/lagging-kpis-0.1-thresholds.jsonld"
+      }
+    }
+  ]
+}

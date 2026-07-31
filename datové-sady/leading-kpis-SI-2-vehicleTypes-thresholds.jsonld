@@ -1,0 +1,110 @@
+{
+  "@context": "https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-otevřených-dat/2024-05-28/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/leading-kpis-SI-2-vehicleTypes-thresholds.jsonld",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Leading Kpis SI 2 Vehicle Types Thresholds",
+    "en": "Leading Kpis SI 2 Vehicle Types Thresholds"
+  },
+  "popis": {
+    "cs": "Návrh mezních hodnot (měsíční a relativní zelené a červené meze) dílčích indikátorů SI-2 pro jednotlivé typy prostředků pozemní obsluhy, které jsou definovány v datové sadě leading-kpis-SI-2-vehicleTypes. Hodnoty vznikly jako návrh v projektu Systémový přístup k měření výkonnosti v bezpečnosti leteckých organizací (CL01000136, program DOPRAVA 2030, TA ČR) ve spolupráci s odborníky na bezpečnost Letiště Praha, a.s. a jsou pro všechny typy vozidel shodné, protože se dosud nerozlišovaly. Nejde o mezní hodnoty používané v provozu letiště: nebyly letištěm schváleny ani zavedeny, nepopisují výkonnost v bezpečnosti žádného letiště a nesmějí být použity k jejímu hodnocení.",
+    "en": "A proposal of the thresholds (the monthly and the relative greenline and redline) of the per-vehicle-type detailed indicators of SI-2 defined in the leading-kpis-SI-2-vehicleTypes dataset. The values were produced as a proposal in the project Total system approach to safety performance measurement in aviation organizations (CL01000136, DOPRAVA 2030 programme, Technology Agency of the Czech Republic) in cooperation with the safety experts of Letiště Praha, a.s. (Prague Airport) and are the same for every vehicle type, as no distinction has been drawn between them so far. They are not thresholds used in airport operations: they were neither approved nor adopted by the airport, they do not describe the safety performance of any airport, and they must not be used to assess it."
+  },
+  "poskytovatel": "https://ror.org/03kqpb082",
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [],
+  "klíčové_slovo": {
+    "cs": [
+      "STPA",
+      "bezpečnostní indikátory",
+      "bezpečnostní výkonnost",
+      "letectví",
+      "letiště",
+      "mezní hodnoty",
+      "pozemní odbavení",
+      "prostředky pozemní obsluhy",
+      "typ vozidla",
+      "řízení bezpečnosti"
+    ],
+    "en": [
+      "STPA",
+      "airport",
+      "aviation",
+      "ground handling",
+      "ground support equipment",
+      "safety indicators",
+      "safety management",
+      "safety performance",
+      "thresholds",
+      "vehicle type"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/NOT_PLANNED",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+  ],
+  "koncept_euroVoc": [],
+  "časové_pokrytí": {
+    "typ": "Časový interval",
+    "začátek": "2026-06-30"
+  },
+  "distribuce": [
+    {
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/leading-kpis-SI-2-vehicleTypes-thresholds.jsonld/distribuce/0",
+      "typ": "Distribuce",
+      "název": {
+        "cs": "leading-kpis-SI-2-vehicleTypes-thresholds",
+        "en": "leading-kpis-SI-2-vehicleTypes-thresholds"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "autor": {
+          "cs": "Bogdan Kostov"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://raw.githubusercontent.com/kbss-cvut/aviation-safety-performance-kb/refs/heads/main/lkpr-distribution/db-server/init-data-profile/00-public--catalog/safety-performance/leading-kpis/leading-kpis-SI-2-vehicleTypes-thresholds.ttl",
+      "přístupové_url": "https://raw.githubusercontent.com/kbss-cvut/aviation-safety-performance-kb/refs/heads/main/lkpr-distribution/db-server/init-data-profile/00-public--catalog/safety-performance/leading-kpis/leading-kpis-SI-2-vehicleTypes-thresholds.ttl",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/turtle",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+    },
+    {
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/leading-kpis-SI-2-vehicleTypes-thresholds.jsonld/distribuce/1",
+      "typ": "Distribuce",
+      "název": {
+        "cs": "SPARQL endpoint",
+        "en": "SPARQL endpoint"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "autor": {
+          "cs": "Bogdan Kostov"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "přístupové_url": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+      "přístupová_služba": {
+        "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/leading-kpis-SI-2-vehicleTypes-thresholds.jsonld/služba/sparql",
+        "typ": "Datová služba",
+        "název": {
+          "cs": "SPARQL endpoint",
+          "en": "SPARQL endpoint"
+        },
+        "specifikace": [
+          "https://www.w3.org/TR/sparql11-protocol/"
+        ],
+        "přístupový_bod": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+        "popis_přístupového_bodu": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+        "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/leading-kpis-SI-2-vehicleTypes-thresholds.jsonld"
+      }
+    }
+  ]
+}

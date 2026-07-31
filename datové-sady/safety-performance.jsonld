@@ -1,0 +1,110 @@
+{
+  "@context": "https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-otevřených-dat/2024-05-28/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance.jsonld",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Safety Performance",
+    "en": "Safety Performance"
+  },
+  "popis": {
+    "cs": "Ontologie výkonnosti v bezpečnosti, tedy pojmový model, v němž jsou popsána data o bezpečnostní výkonnosti pozemního odbavení. Ontologie zavádí pojmy jako událost, pozorování a hodnocení situace, přijatelná a nepřijatelná situace, nápravné opatření, organizační proces a jeho model, evidované zařízení, bezpečnostní analýza a požadavek, a vlastnosti, které je propojují, například co co způsobuje, co je pozorováním nebo hodnocením čeho, kdy k události došlo a jak dlouho trvala. Pojmy navazují na základní ontologii UFO. Ontologie vznikla v projektu Systémový přístup k měření výkonnosti v bezpečnosti leteckých organizací (CL01000136, program DOPRAVA 2030, TA ČR) ve spolupráci s odborníky na bezpečnost Letiště Praha, a.s. a slouží jako společný slovník ostatních zde publikovaných datových sad.",
+    "en": "The safety performance ontology, that is, the conceptual model the data on the safety performance of ground handling are described in. The ontology introduces notions such as an occurrence, the observation and the evaluation of a situation, an acceptable and an unacceptable situation, a corrective action, an organizational process and its model, registered equipment, a safety analysis and a requirement, together with the properties that connect them, such as what causes what, what is an observation or an evaluation of what, when an event occurred and how long it lasted. The notions build on the UFO foundational ontology. The ontology was produced in the project Total system approach to safety performance measurement in aviation organizations (CL01000136, DOPRAVA 2030 programme, Technology Agency of the Czech Republic) in cooperation with the safety experts of Letiště Praha, a.s. (Prague Airport) and serves as the shared vocabulary of the other datasets published here."
+  },
+  "poskytovatel": "https://ror.org/03kqpb082",
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [],
+  "klíčové_slovo": {
+    "cs": [
+      "STPA",
+      "bezpečnostní indikátory",
+      "bezpečnostní výkonnost",
+      "letectví",
+      "letiště",
+      "ontologie",
+      "pojmový model",
+      "pozemní odbavení",
+      "prostředky pozemní obsluhy",
+      "řízení bezpečnosti"
+    ],
+    "en": [
+      "STPA",
+      "airport",
+      "aviation",
+      "conceptual model",
+      "ground handling",
+      "ground support equipment",
+      "ontology",
+      "safety indicators",
+      "safety management",
+      "safety performance"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/NOT_PLANNED",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+  ],
+  "koncept_euroVoc": [],
+  "časové_pokrytí": {
+    "typ": "Časový interval",
+    "začátek": "2026-06-30"
+  },
+  "distribuce": [
+    {
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance.jsonld/distribuce/0",
+      "typ": "Distribuce",
+      "název": {
+        "cs": "safety-performance",
+        "en": "safety-performance"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "autor": {
+          "cs": "Bogdan Kostov, Miroslav Blaško"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://raw.githubusercontent.com/kbss-cvut/aviation-safety-performance-kb/refs/heads/main/lkpr-distribution/db-server/init-data-profile/00-public--catalog/safety-performance/safety-performance.trig",
+      "přístupové_url": "https://raw.githubusercontent.com/kbss-cvut/aviation-safety-performance-kb/refs/heads/main/lkpr-distribution/db-server/init-data-profile/00-public--catalog/safety-performance/safety-performance.trig",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/trig",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TRIG"
+    },
+    {
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance.jsonld/distribuce/1",
+      "typ": "Distribuce",
+      "název": {
+        "cs": "SPARQL endpoint",
+        "en": "SPARQL endpoint"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "autor": {
+          "cs": "Bogdan Kostov, Miroslav Blaško"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "přístupové_url": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+      "přístupová_služba": {
+        "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance.jsonld/služba/sparql",
+        "typ": "Datová služba",
+        "název": {
+          "cs": "SPARQL endpoint",
+          "en": "SPARQL endpoint"
+        },
+        "specifikace": [
+          "https://www.w3.org/TR/sparql11-protocol/"
+        ],
+        "přístupový_bod": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+        "popis_přístupového_bodu": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+        "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance.jsonld"
+      }
+    }
+  ]
+}

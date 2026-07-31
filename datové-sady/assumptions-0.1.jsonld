@@ -1,0 +1,108 @@
+{
+  "@context": "https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-otevřených-dat/2024-05-28/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/assumptions-0.1.jsonld",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Assumptions 0.1",
+    "en": "Assumptions 0.1"
+  },
+  "popis": {
+    "cs": "Číselník obecných kategorií předpokladů (1A až 6A), na nichž stojí bezpečnostní analýza a od nichž se odvozují předstihové (leading) indikátory. Kategorie vycházejí z přístupu k předstihovým indikátorům založeného na předpokladech (assumption-based leading indicators) a pokrývají předpoklady o hazardech a jejich příčinách, o účinnosti přijatých opatření, o provozním prostředí a chování lidí, o vývojovém prostředí a procesech, o organizační a společenské struktuře řízení bezpečnosti a o zranitelnosti či závažnosti v hodnocení rizik. Každá kategorie je popsána identifikátorem a slovním popisem. Datová sada vznikla v projektu Systémový přístup k měření výkonnosti v bezpečnosti leteckých organizací (CL01000136, program DOPRAVA 2030, TA ČR) ve spolupráci s odborníky na bezpečnost Letiště Praha, a.s. a je návrhem vzniklým v projektu, nikoli popisem číselníku zavedeného v provozu letiště. Konkrétní předpoklady zařazené do těchto kategorií jsou publikovány v samostatné datové sadě mapování předpokladů na indikátory.",
+    "en": "A code list of the general categories of assumptions (1A to 6A) that a safety analysis rests on and from which leading indicators are derived. The categories follow the assumption-based leading indicators approach and cover assumptions about hazards and their causes, about the effectiveness of the controls in place, about the operating environment and human behaviour, about the development environment and processes, about the organizational and societal safety control structure, and about vulnerability or severity in risk assessment. Each category is described by an identifier and a textual description. The dataset was produced in the project Total system approach to safety performance measurement in aviation organizations (CL01000136, DOPRAVA 2030 programme, Technology Agency of the Czech Republic) in cooperation with the safety experts of Letiště Praha, a.s. (Prague Airport) and is a proposal produced by the project, not a record of a code list adopted in airport operations. The individual assumptions classified into these categories are published as a separate dataset of the assumption-to-indicator mapping."
+  },
+  "poskytovatel": "https://ror.org/03kqpb082",
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [],
+  "klíčové_slovo": {
+    "cs": [
+      "STPA",
+      "bezpečnostní indikátory",
+      "bezpečnostní výkonnost",
+      "letectví",
+      "letiště",
+      "pozemní odbavení",
+      "prostředky pozemní obsluhy",
+      "předpoklady bezpečnostní analýzy",
+      "řízení bezpečnosti"
+    ],
+    "en": [
+      "STPA",
+      "airport",
+      "aviation",
+      "ground handling",
+      "ground support equipment",
+      "safety analysis assumptions",
+      "safety indicators",
+      "safety management",
+      "safety performance"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/NOT_PLANNED",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+  ],
+  "koncept_euroVoc": [],
+  "časové_pokrytí": {
+    "typ": "Časový interval",
+    "začátek": "2026-06-30"
+  },
+  "distribuce": [
+    {
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/assumptions-0.1.jsonld/distribuce/0",
+      "typ": "Distribuce",
+      "název": {
+        "cs": "assumptions-0.1",
+        "en": "assumptions-0.1"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "autor": {
+          "cs": "Bogdan Kostov, Miroslav Blaško, Slobodan Stojić"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://raw.githubusercontent.com/kbss-cvut/aviation-safety-performance-kb/refs/heads/main/lkpr-distribution/db-server/init-data-profile/00-public--catalog/safety-performance/general-assumptions/assumptions-0.1.ttl",
+      "přístupové_url": "https://raw.githubusercontent.com/kbss-cvut/aviation-safety-performance-kb/refs/heads/main/lkpr-distribution/db-server/init-data-profile/00-public--catalog/safety-performance/general-assumptions/assumptions-0.1.ttl",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/turtle",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"
+    },
+    {
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/assumptions-0.1.jsonld/distribuce/1",
+      "typ": "Distribuce",
+      "název": {
+        "cs": "SPARQL endpoint",
+        "en": "SPARQL endpoint"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "autor": {
+          "cs": "Bogdan Kostov, Miroslav Blaško, Slobodan Stojić"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "přístupové_url": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+      "přístupová_služba": {
+        "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/assumptions-0.1.jsonld/služba/sparql",
+        "typ": "Datová služba",
+        "název": {
+          "cs": "SPARQL endpoint",
+          "en": "SPARQL endpoint"
+        },
+        "specifikace": [
+          "https://www.w3.org/TR/sparql11-protocol/"
+        ],
+        "přístupový_bod": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+        "popis_přístupového_bodu": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+        "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/assumptions-0.1.jsonld"
+      }
+    }
+  ]
+}

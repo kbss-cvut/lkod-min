@@ -1,0 +1,110 @@
+{
+  "@context": "https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-otevřených-dat/2024-05-28/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance-kpis-ufo-mapping.jsonld",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Safety Performance Kpis Ufo Mapping",
+    "en": "Safety Performance Kpis Ufo Mapping"
+  },
+  "popis": {
+    "cs": "Mapování pojmů ontologie bezpečnostních indikátorů na základní ontologii UFO (Unified Foundational Ontology). Datová sada zařazuje pojmy jako inspekce, kontrolovaná podmínka, nápravné opatření, oprava, zjištěná závada, zaměstnanec nebo priorita pod odpovídající obecné kategorie UFO, tedy pod akci, situaci, událost, typ události, fázi, agenta a vlastnost. Mapování zpřesňuje význam použitých pojmů a usnadňuje propojení s dalšími ontologiemi. Vzniklo v projektu Systémový přístup k měření výkonnosti v bezpečnosti leteckých organizací (CL01000136, program DOPRAVA 2030, TA ČR) ve spolupráci s odborníky na bezpečnost Letiště Praha, a.s.",
+    "en": "The mapping of the notions of the safety indicator ontology onto the UFO (Unified Foundational Ontology). The dataset places notions such as an inspection, an inspected condition, a corrective action, a repair, a discrepancy, an employee or a priority under the corresponding general categories of UFO, that is, under an action, a situation, an event, an event type, a phase, an agent and a trope. The mapping makes the meaning of the notions used more precise and eases the connection to further ontologies. It was produced in the project Total system approach to safety performance measurement in aviation organizations (CL01000136, DOPRAVA 2030 programme, Technology Agency of the Czech Republic) in cooperation with the safety experts of Letiště Praha, a.s. (Prague Airport)."
+  },
+  "poskytovatel": "https://ror.org/03kqpb082",
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [],
+  "klíčové_slovo": {
+    "cs": [
+      "STPA",
+      "UFO",
+      "bezpečnostní indikátory",
+      "bezpečnostní výkonnost",
+      "letectví",
+      "letiště",
+      "ontologie",
+      "pozemní odbavení",
+      "prostředky pozemní obsluhy",
+      "řízení bezpečnosti"
+    ],
+    "en": [
+      "STPA",
+      "UFO",
+      "airport",
+      "aviation",
+      "ground handling",
+      "ground support equipment",
+      "ontology",
+      "safety indicators",
+      "safety management",
+      "safety performance"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/NOT_PLANNED",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+  ],
+  "koncept_euroVoc": [],
+  "časové_pokrytí": {
+    "typ": "Časový interval",
+    "začátek": "2026-06-30"
+  },
+  "distribuce": [
+    {
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance-kpis-ufo-mapping.jsonld/distribuce/0",
+      "typ": "Distribuce",
+      "název": {
+        "cs": "safety-performance-kpis-ufo-mapping",
+        "en": "safety-performance-kpis-ufo-mapping"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "autor": {
+          "cs": "Bogdan Kostov, Miroslav Blaško"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://raw.githubusercontent.com/kbss-cvut/aviation-safety-performance-kb/refs/heads/main/lkpr-distribution/db-server/init-data-profile/00-public--catalog/safety-performance/safety-performance-kpis-ufo-mapping.trig",
+      "přístupové_url": "https://raw.githubusercontent.com/kbss-cvut/aviation-safety-performance-kb/refs/heads/main/lkpr-distribution/db-server/init-data-profile/00-public--catalog/safety-performance/safety-performance-kpis-ufo-mapping.trig",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/trig",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_TRIG"
+    },
+    {
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance-kpis-ufo-mapping.jsonld/distribuce/1",
+      "typ": "Distribuce",
+      "název": {
+        "cs": "SPARQL endpoint",
+        "en": "SPARQL endpoint"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "autor": {
+          "cs": "Bogdan Kostov, Miroslav Blaško"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "přístupové_url": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+      "přístupová_služba": {
+        "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance-kpis-ufo-mapping.jsonld/služba/sparql",
+        "typ": "Datová služba",
+        "název": {
+          "cs": "SPARQL endpoint",
+          "en": "SPARQL endpoint"
+        },
+        "specifikace": [
+          "https://www.w3.org/TR/sparql11-protocol/"
+        ],
+        "přístupový_bod": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+        "popis_přístupového_bodu": "https://kbss.felk.cvut.cz/asp-demo/services/db-server/repositories/safety-performance",
+        "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/safety-performance-kpis-ufo-mapping.jsonld"
+      }
+    }
+  ]
+}
