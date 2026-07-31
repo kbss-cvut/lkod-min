@@ -1,0 +1,151 @@
+{
+  "@context": "https://ofn.gov.cz/dcat-ap-cz-rozhraní-katalogů-otevřených-dat/2024-05-28/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/interní-uživatelské-ověření-aplikace.jsonld",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Interní uživatelské ověření aplikace pro vizualizaci bezpečnostních indikátorů – anonymizovaný scénář a souhrnná zjištění",
+    "en": "Internal user evaluation of an application for visualisation of safety indicators – anonymised scenario and summary findings"
+  },
+  "popis": {
+    "cs": "Balíček obsahuje anonymizovanou dokumentaci k internímu uživatelskému\nověření aplikace pro vizualizaci a monitoring bezpečnostních indikátorů. Zahrnuje očištěný\ntestovací scénář, souhrnnou zprávu s agregovanými zjištěními a doporučeními, datový záznam\na prohlášení o dostupnosti dat. Ověření mělo interní a podpůrný charakter; počet účastníků\na rozsah záznamů neumožňují statistické závěry. Plné přepisy, nahrávky a pracovní poznámky\nnejsou součástí balíčku a nejsou veřejně dostupné z důvodu ochrany osobních údajů,\nobchodního tajemství a know-how aplikačního garanta.",
+    "en": "This record contains anonymised documentation from an internal user\nevaluation of an application for the visualisation and monitoring of safety indicators.\nThe package comprises a cleaned test scenario, a summary report with aggregated findings\nand recommendations, a data record and a data availability statement. The evaluation was\ninternal and supportive in character; the number of participants and the extent of the\nrecords do not permit statistical inference. Full transcripts, recordings and raw working\nnotes are not part of this package and are not publicly available, owing to the protection\nof personal data, trade secrets and the know-how of the application partner."
+  },
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "časové_pokrytí": {
+    "typ": "Časový interval",
+    "začátek": "2026-06-30"
+  },
+  "klíčové_slovo": {
+    "cs": [
+      "uživatelské testování",
+      "použitelnost",
+      "bezpečnostní indikátory",
+      "vizualizace dat"
+    ],
+    "en": [
+      "user evaluation",
+      "usability testing",
+      "safety indicators",
+      "data visualisation"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/NOT_PLANNED",
+  "dokumentace": "https://doi.org/10.5281/zenodo.21703065",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+  ],
+  "poskytovatel": "https://ror.org/03kqpb082",
+  "distribuce": [
+    {
+      "typ": "Distribuce",
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/interní-uživatelské-ověření-aplikace.jsonld/distribuce/0",
+      "název": {
+        "cs": "inspections-gse--36--46",
+        "en": "inspections-gse--36--46"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor": {
+          "cs": "Bogdan Kostov, Miroslav Blaško"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://sample-place/where-files-are-stored/file.csv",
+      "přístupové_url": "https://sample-place/where-files-are-stored/file.csv",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/interní-uživatelské-ověření-aplikace.jsonld/distribuce/1",
+      "název": {
+        "cs": "Safety pereformance KPIs model JSON-LD"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor": {
+          "cs": "Michal Med, Bogdan Kostov"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://onto.fel.cvut.cz/ontologies/safety-performance-kpis/1.0.1.jsonld",
+      "přístupové_url": "https://onto.fel.cvut.cz/ontologies/safety-performance-kpis/1.0.1.jsonld",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/ld+json",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/JSON_LD"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/interní-uživatelské-ověření-aplikace.jsonld/distribuce/2",
+      "název": {
+        "cs": "Safety performance KPIs model RDF/XML"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor": {
+          "cs": "Michal Med, Bogdan Kostov"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://onto.fel.cvut.cz/ontologies/safety-performance-kpis/1.0.1.rdf",
+      "přístupové_url": "https://onto.fel.cvut.cz/ontologies/safety-performance-kpis/1.0.1.rdf",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/rdf+xml",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_XML"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/interní-uživatelské-ověření-aplikace.jsonld/distribuce/3",
+      "název": {
+        "cs": "Safety performance KPIs model N-Triples"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor": {
+          "cs": "Michal Med, Bogdan Kostov"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://onto.fel.cvut.cz/ontologies/safety-performance-kpis/1.0.1.nt",
+      "přístupové_url": "https://onto.fel.cvut.cz/ontologies/safety-performance-kpis/1.0.1.nt",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/n-triples",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES"
+    },
+    {
+      "typ": "Distribuce",
+      "iri": "https://raw.githubusercontent.com/kbss-cvut/lkod-min/refs/heads/main/datové-sady/interní-uživatelské-ověření-aplikace.jsonld/distribuce/4",
+      "název": {
+        "cs": "Uživatelské ověření aplikace - ZIP",
+        "en": "User evaluation of application - ZIP"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor": {
+          "cs": "Ivo Malý, Ladislav Čmolík, Václav Pavlovec"
+        },
+        "databáze_jako_autorské_dílo": "https://data.gov.cz/podmínky-užití/není-autorskoprávně-chráněnou-databází/",
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "soubor_ke_stažení": "https://zenodo.org/api/records/21703065/files-archive",
+      "přístupové_url": "https://zenodo.org/api/records/21703065/files-archive",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/pdf",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/ZIP",
+      "typ_média_balíčku": "http://www.iana.org/assignments/media-types/application/zip",
+      "typ_média_komprese": "http://www.iana.org/assignments/media-types/application/zip"
+    }
+  ]
+}
